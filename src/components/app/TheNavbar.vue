@@ -13,9 +13,9 @@
     <div
       :class="toggle ? 'space-x-[32px] absolute left-[50%] translate-x-[-50%] m-auto mt-[700px] z-40' : 'space-x-[32px] lg:flex hidden'">
       <button type="button"
-        class="w-[104px] h-[32px] text-xs border-2 border-darkBlue rounded-full text-darkBlue hover:bg-[#01639C] hover:text-white">Register</button>
+        class="md:w-[104px] md:h-[32px] w-[89px] h-[27px] text-xs border-2 border-darkBlue rounded-full text-darkBlue hover:bg-[#01639C] hover:text-white">Register</button>
       <button type="button"
-        class="w-[104px] h-[32px] text-xs border-2 rounded-full bg-darkBlue text-white hover:bg-[#01639C]">Login</button>
+        class="md:w-[104px] md:h-[32px] w-[89px] h-[27px] text-xs border-2 rounded-full bg-darkBlue text-white hover:bg-[#01639C]">Login</button>
     </div>
 
     <!-- toggle menu -->
