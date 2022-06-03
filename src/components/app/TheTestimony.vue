@@ -7,7 +7,7 @@
     <div class="flex flex-wrap justify-center gap-20 mt-[88px]">
       <div v-for="(card, index) in cards" :key="card.id">
         <div
-          :class="index === 1 ? 'flex justify-center items-center scale-125 w-[300px] h-[380px] shadow-md bg-white rounded-2xl transition ease-in-out duration-150 hover:bg-blue hover:text-white group' : 'flex justify-center items-center w-[300px] h-[380px] shadow-md bg-white rounded-2xl transition ease-in-out duration-150 hover:bg-blue hover:text-white group'">
+          :class="index === 1 ? 'flex justify-center items-center lg:scale-125 w-[300px] h-[380px] shadow-md bg-white rounded-2xl transition ease-in-out duration-150 hover:bg-blue hover:text-white group' : 'flex justify-center items-center w-[300px] h-[380px] shadow-md bg-white rounded-2xl transition ease-in-out duration-150 hover:bg-blue hover:text-white group'">
           <div class="flex items-center justify-center">
             <div class="flex-col space-y-7 px-8">
               <h2 class="font-bold text-lg underline underline-offset-4 text-center">{{ card.name }}</h2>

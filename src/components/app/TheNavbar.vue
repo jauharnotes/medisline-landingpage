@@ -4,7 +4,7 @@
       <img src="../../assets/images/logo-medisline.svg" alt="logo">
     </div>
     <div
-      :class="toggle ? 'flex-col pt-14 text-center absolute top-0 w-full h-[600px] space-y-[50px] z-20 bg-white text-darkBlue' : 'lg:flex hidden space-x-[80px] text-darkBlue'">
+      :class="toggle ? 'flex-col pt-14 text-center absolute top-0 w-full h-[600px] space-y-[50px] z-20 bg-white text-darkBlue' : 'lg:flex hidden space-x-2 md:space-x-[80px] text-darkBlue'">
       <a href="/" exact class="hover:text-[#01639C] hover:underline hover:underline-offset-8 cursor-pointer lg:inline-block block">Home</a>
       <a href="/service" class="hover:text-[#01639C] hover:underline hover:underline-offset-8 cursor-pointer lg:inline-block block">Service</a>
       <a href="/about" class="hover:text-[#01639C] hover:underline hover:underline-offset-8 cursor-pointer lg:inline-block block">About Us</a>
