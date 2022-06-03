@@ -12,7 +12,7 @@
     </div>
     <div class="flex justify-center">
       <button
-        class="w-[114px] lg:h-[30px]  h-[20] text-xs lg:text-base border border-darkBlue rounded-md hover:bg-darkBlue hover:text-white">Lihat
+        class="w-[114px] lg:h-[30px]  h-[2rem] text-xs lg:text-base border border-darkBlue rounded-md hover:bg-darkBlue hover:text-white">Lihat
         Detail</button>
     </div>
   </div>
