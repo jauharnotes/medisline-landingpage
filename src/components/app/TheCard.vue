@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col mx-auto lg:w-[1194px] w-full h-auto  lg:h-[600px] rounded-2xl drop-shadow-md bg-white -mt-16">
+  <div class="flex-col mx-auto lg:w-[1194px] w-full h-auto  lg:h-[600px] rounded-2xl drop-shadow-md bg-white -mt-16 pb-14">
     <div :class="$style.header">
       <the-carausel />
     </div>

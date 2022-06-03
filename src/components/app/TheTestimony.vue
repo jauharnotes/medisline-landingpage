@@ -1,6 +1,6 @@
 <template>
   <div class="font-fontAlt mt-[72px] text-blue relative mb-[199px] text-center">
-    <div class="flex flex-col items-center justify-center space-y-4">
+    <div class="flex flex-col items-center justify-center space-y-4 px-4">
       <h2 class="font-bold text-4xl lg:text-5xl">{{ title }}</h2>
       <p class="text-[32px]">{{ desc }}</p>
     </div>

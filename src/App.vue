@@ -3,7 +3,7 @@ import BaseLayout from './components/layout/BaseLayout.vue'
 import TheFooter from './components/app/TheFooter.vue'
 import TheHeader from './components/app/TheHeader.vue'
 import TheNavbar from './components/app/TheNavbar.vue'
-import ContentLading from './components/app/ContentLading.vue'
+import PageLanding from './components/pages/PageLanding.vue'
   
 export default {
   components: {
@@ -11,7 +11,7 @@ export default {
     TheNavbar,
     TheHeader,
     TheFooter,
-    ContentLading,
+    PageLanding,
   }
 }
 </script>
@@ -27,7 +27,7 @@ export default {
     </template>
 
     <template #content>
-      <content-lading />
+      <page-landing />
     </template>
 
     <template #footer>
