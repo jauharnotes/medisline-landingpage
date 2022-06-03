@@ -5,7 +5,7 @@
         <div v-html="heading"></div>
         <p>{{ desc }}</p>
       </div>
-      <div class="flex-1">
+      <div class="flex-1 hidden md:inline-block">
         <img src="../../assets/images/doctor.png" alt="doctor" width="505.35">
       </div>
     </div>
